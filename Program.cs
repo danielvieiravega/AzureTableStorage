@@ -2,7 +2,7 @@
 using Azure.Data.Tables;
 using System.Text.Json;
 
-var connectionString = @"DefaultEndpointsProtocol=https;AccountName=tablestoragevega01;AccountKey=rOKCoWVrYeHpXRDQfVCYz0Wa8XOoA2+ycwCCJsQHEEjP6ICXRQ3GqJb3hiOv4pxFDHXuCmLjdKD7+AStBwDpsA==;EndpointSuffix=core.windows.net";
+var connectionString = @"DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1";
 var tableName = "progresstable";
 
 try
